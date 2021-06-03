@@ -9,4 +9,9 @@ public class JenkinContrller {
     public String method(){
         return  "this is my jenkin package";
     }
+
+    @GetMapping (value="/getMessage1")
+    public String method1(){
+        return  "this is my jenkin package1";
+    }
 }
